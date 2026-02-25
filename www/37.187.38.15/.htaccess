@@ -1,0 +1,16 @@
+
+RewriteEngine On
+
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+ErrorDocument 400 /erreur.php
+ErrorDocument 401 /erreur.php
+ErrorDocument 403 /erreur.php
+ErrorDocument 404 /erreur.php
+ErrorDocument 500 /erreur.php
+ErrorDocument 502 /erreur.php
+ErrorDocument 503 /erreur.php
+
+Options -Indexes
+
