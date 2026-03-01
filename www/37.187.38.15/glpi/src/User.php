@@ -5951,10 +5951,10 @@ HTML;
         /** @var \DBmysql $DB */
         global $DB;
 
-        $passwords = ['glpi'      => 'glpi',
-            'tech'      => 'tech',
-            'normal'    => 'normal',
-            'post-only' => 'postonly'
+        $passwords = ['***'      => '***',
+            '***'      => '***',
+            '***'    => '***',
+            '***' => '***'
         ];
         $default_password_set = [];
 
