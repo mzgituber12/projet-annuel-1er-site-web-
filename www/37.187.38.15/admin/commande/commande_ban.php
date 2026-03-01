@@ -55,12 +55,12 @@ $mail = new PHPMailer(true);
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'battlepast23@gmail.com';
-$mail->Password = 'duxw kkku xafh aufx';
+$mail->Username = '***';
+$mail->Password = '***';
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-$mail->Port = 587;
+$mail->Port = ***;
 
-$mail->setFrom('battlepast23@gmail.com', 'BATTLEPAST NEWSLETTER');
+$mail->setFrom('***', 'BATTLEPAST NEWSLETTER');
 $mail->isHTML(true);
 $mail->Subject = 'Bannissement de Battlepast';
 $mail->Body = '<h1>' . $comm[2] . ', vous avez été banni du site Battlepast</h1>'
@@ -116,12 +116,12 @@ if($comm[1] == 'deban'){
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'battlepast23@gmail.com';
-    $mail->Password = 'duxw kkku xafh aufx';
+    $mail->Username = '***';
+    $mail->Password = '***';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port = 587;
+    $mail->Port = ***;
 
-    $mail->setFrom('battlepast23@gmail.com', 'BATTLEPAST NEWSLETTER');
+    $mail->setFrom('***', 'BATTLEPAST NEWSLETTER');
     $mail->isHTML(true);
     $mail->Subject = 'Debannissement de Battlepast';
     $mail->Body = '<h1>' . $comm[2] . ', vous avez été débanni du site Battlepast </h1>'
